@@ -1,0 +1,11 @@
+.gradient-border {
+  position: relative;
+  padding: 2px;
+  background: linear-gradient(45deg, #ff00ff7e, #00ffff7c);
+  border-radius: 0px 24px 0px 24px;
+  transition: transform 300ms ease; /* Added to match duration-300 */
+}
+
+.gradient-border:hover {
+  transform: translateY(-20px); /* Matches hover:-translate-y-5 */
+}

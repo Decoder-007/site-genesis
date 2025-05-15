@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  /* padding: 5px; */
+  background-image: url("./assets/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  color: white;
+  /* box-sizing: border-box; */
+  /* background-position: center; */
+}
+
+.audiowide-regular {
+  font-family: "Audiowide";
+  font-weight: 400;
+ }
+ 
